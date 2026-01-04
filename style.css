@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+  background: #ffe6f0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #f5f5f5;
+}
