@@ -126,3 +126,34 @@
  <footer>
   <p>© 2026 | Created by Ansh</p>
 </footer>
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<title>Shayari Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>📱 Login / Signup</h2>
+
+<div class="auth-box">
+  <input type="tel" id="phone" placeholder="Phone Number">
+  <button onclick="signup()">Create Account</button>
+  <button onclick="login()">Login</button>
+</div>
+
+<h2>💬 Comment Box</h2>
+
+<div class="comment-box">
+  <textarea id="commentText" placeholder="Comment likho..."></textarea>
+  <button onclick="addComment()">Post</button>
+</div>
+
+<div id="comments"></div>
+
+<script src="auth.js"></script>
+<script src="comment.js"></script>
+</body>
+</html>
