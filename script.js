@@ -29,3 +29,27 @@ motivationShayari.forEach((text, index) => {
   div.innerText = text;
   shayariBox.appendChild(div);
 });
+
+const loveShayari = [
+  "तुम्हें चाहा तो कोई गुनाह नहीं किया,\nबस दिल ने दिल से बेइंतहा मोहब्बत की।",
+
+  "तुम साथ हो तो दुनिया हसीन लगती है,\nवरना ये ज़िंदगी भी अधूरी लगती है।",
+
+  "मेरी हर सांस में तेरा नाम बस गया,\nअब खुद से ज्यादा तुझे चाहने लगा।",
+
+  "इश्क़ वो नहीं जो दुनिया को दिखाया जाए,\nइश्क़ वो है जो दिल में बसाया जाए।",
+
+  "तेरी मुस्कान मेरी पहचान बन गई,\nतेरी मोहब्बत मेरी जान बन गई।",
+
+  "बात छोटी सी थी मगर दिल तक उतर गई,\nजब तुम मुस्कुराए, मेरी दुनिया संवर गई।"
+];
+
+const loveBox = document.getElementById("loveBox");
+
+loveShayari.forEach((text, index) => {
+  const div = document.createElement("div");
+  div.className = "shayari";
+  div.style.animationDelay = `${index * 0.2}s`;
+  div.innerText = text;
+  loveBox.appendChild(div);
+});
