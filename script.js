@@ -53,3 +53,12 @@ loveShayari.forEach((text, index) => {
   div.innerText = text;
   loveBox.appendChild(div);
 });
+
+function openSad(){
+  const headline = document.querySelector(".sad-headline");
+  headline.classList.add("active");
+
+  setTimeout(() => {
+    window.location.href = "sad.html";
+  }, 600);
+}
